@@ -10,8 +10,8 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.24.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "site-auth-react": "^0.0.21"
+    "site-auth-react": "^0.0.22",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
