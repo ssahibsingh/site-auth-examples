@@ -6,8 +6,29 @@ import Profile from "./pages/Profile";
 import "./App.css";
 
 const SiteRoutes = () => {
-  const { isAuthenticated } = useSiteAuth();
+  const { isAuthenticated, loading } = useSiteAuth();
   const { REACT_APP_SITE_AUTH_WEBSITE_ID: websiteId } = process.env;
+
+  if (loading) {
+    return (
+      <>
+        <div
+          style={{
+            height: "100vh",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            fontFamily: "monospace",
+            fontSize: "1.5rem",
+            backgroundColor: "#f0f0f0",
+          }}
+        >
+          Loading...
+        </div>
+        ;
+      </>
+    );
+  }
 
   if (!isAuthenticated) {
     return <SiteAuthScreen websiteId={websiteId} />;
