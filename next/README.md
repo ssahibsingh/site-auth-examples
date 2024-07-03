@@ -19,8 +19,8 @@ Ensure you have Node.js and npm installed on your local development machine.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ssahibsingh/site-auth-demo.git
-   cd site-auth-demo
+   git clone https://github.com/ssahibsingh/site-auth-examples.git
+   cd site-auth-examples/next
    ```
 
 2. Install dependencies:
