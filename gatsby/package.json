@@ -21,7 +21,7 @@
     "postcss": "^8.4.39",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "site-auth-react": "^1.0.0",
+    "site-auth-react": "^1.0.2",
     "tailwindcss": "^3.4.4"
   }
 }
